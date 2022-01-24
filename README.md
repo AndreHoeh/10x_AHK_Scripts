@@ -7,3 +7,9 @@
 
 ## How to autostart a script
 
+### On Windows:
+
+1. Press Win + R
+2. type shell:startup
+3. put a shortcut to your main script into startup folder
+4. profit
