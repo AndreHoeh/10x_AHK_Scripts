@@ -8,13 +8,13 @@
 
 
 ; This part enables using capslock normaly if you tap it but it will not activate if you hold it down
-CapsLock::
-	KeyWait, CapsLock
-	If (A_PriorKey="CapsLock")
-		; Two ways to toggle CapsLock to its opposite state.
-		;SetCapsLockState, % GetKeyState("CapsLock","T") ? "Off" : "On"
-		SetCapsLockState, % !GetKeyState("CapsLock","T") ; requires [v1.1.30+]
-Return
+;CapsLock::
+;	KeyWait, CapsLock
+;	If (A_PriorKey="CapsLock")
+;		; Two ways to toggle CapsLock to its opposite state.
+;		;SetCapsLockState, % GetKeyState("CapsLock","T") ? "Off" : "On"
+;		SetCapsLockState, % !GetKeyState("CapsLock","T") ; requires [v1.1.30+]
+;Return
 
 ; if this #If statement is true, only this part of the script will be active
 #If, GetKeyState("CapsLock", "P") and GetKeyState("a", "P")

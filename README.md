@@ -1,6 +1,13 @@
 # 10x_AHK_Scripts
 
-This repository contains a few usefull AHK scripts to accelerate your workflow. There are different scripts for diferent features, most of them will be included and by the main script.
+This repository contains a few usefull AHK scripts to accelerate your workflow. There are different scripts for diferent features, most of them will be automatically included by the main script.
+
+## What does this script do?
+
+- It adds two new layers
+- It adds home row mods
+- It disables Capslock
+
 ## How to install
 
 1. Download AutoHotkey [here](https://www.autohotkey.com/)
