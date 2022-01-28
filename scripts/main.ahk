@@ -17,6 +17,6 @@ SetCapsLockState, AlwaysOff
 ; this copy pastes the content of the files to this position, so the include order matters
 #Include %A_ScriptDir%\dev.ahk
 #Include %A_ScriptDir%\layer_action.ahk
-#Include %A_ScriptDir%\home_row_mods.ahk
+;#Include %A_ScriptDir%\home_row_mods.ahk
 
 return

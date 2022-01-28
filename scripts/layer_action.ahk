@@ -63,6 +63,15 @@ a:: ; disable this key because it is used to access another layer
 return
 Space::Send {Return} 
 return
+s::Send {Ctrl down}s{Ctrl up}
+return
+c::Send {Ctrl down}c{Ctrl up}
+return
+v::Send {Ctrl down}v{Ctrl up}
+return
+x::Send {Ctrl down}x{Ctrl up}
+return
+
 
 ; if this If statement is true, everything "beneath" it will be the active part of the script
 #If !GetKeyState("CapsLock", "P")

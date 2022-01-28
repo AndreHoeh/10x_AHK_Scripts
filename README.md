@@ -5,8 +5,9 @@ This repository contains a few usefull AHK scripts to accelerate your workflow. 
 ## What does this script do?
 
 - It adds two new layers
-- It adds home row mods
 - It disables Capslock
+- It changes some keybindings (see dev scipt)
+- It adds home row mods (not by default)
 
 ## How to install
 
