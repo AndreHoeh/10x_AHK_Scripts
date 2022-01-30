@@ -7,16 +7,19 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #installkeybdhook
 
 ;SetCapsLockState,Off
-SetCapsLockState, AlwaysOff
+;SetCapsLockState, AlwaysOff
 ;SetNumLockState,Off
 ;SetNumLockState,AlwaysOff
 ;SetScrollLockState,Off
 ;SetScrollLockState,AlwaysOff
 
+;one_shot_shift := 0
+
 ; this includes my scripts, so no need to put every file into autostart
 ; this copy pastes the content of the files to this position, so the include order matters
-#Include %A_ScriptDir%\dev.ahk
+; #Include %A_ScriptDir%\one_shot_shift.ahk
 #Include %A_ScriptDir%\layer_action.ahk
+#Include %A_ScriptDir%\dev.ahk
 ;#Include %A_ScriptDir%\home_row_mods.ahk
 
 return

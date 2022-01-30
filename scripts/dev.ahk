@@ -1,12 +1,10 @@
 VKDD::DEL
 
-LAlt::LShift
-
-RAlt::RShift
-
-LShift::LAlt
-
-RWin::RAlt
+; SWITCH SHIFLT AND ALT
+;LAlt::LShift
+;RAlt::RShift
+;LShift::LAlt
+;RWin::RAlt
 
 ; close an editor window in vs code
 ^4::
