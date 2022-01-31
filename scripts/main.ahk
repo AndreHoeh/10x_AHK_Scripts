@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #installkeybdhook
 
 ;SetCapsLockState,Off
-;SetCapsLockState, AlwaysOff
+SetCapsLockState, AlwaysOff
 ;SetNumLockState,Off
 ;SetNumLockState,AlwaysOff
 ;SetScrollLockState,Off
