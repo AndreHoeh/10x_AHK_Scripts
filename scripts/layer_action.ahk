@@ -71,6 +71,8 @@ v::Send {Ctrl down}v{Ctrl up}
 return
 x::Send {Ctrl down}x{Ctrl up}
 return
+y::Send {Ctrl down}z{Ctrl up}
+return
 
 
 ; if this If statement is true, everything "beneath" it will be the active part of the script
