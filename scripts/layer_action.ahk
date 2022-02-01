@@ -76,6 +76,8 @@ return
 ; Add a markdown code block
 VKDD::Send {Shift down}{VKDD}{VKDD}{VKDD}{VKDD}{VKDD}{VKDD}{Shift up}{Left}{Left}{Left}{ENTER}{Left} ;```
 return
+BackSpace::Send {Ctrl down}{BackSpace}{Ctrl up}
+return
 
 ; if this If statement is true, everything "beneath" it will be the active part of the script
 #If !GetKeyState("CapsLock", "P")
